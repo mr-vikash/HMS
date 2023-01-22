@@ -1,5 +1,5 @@
-<%@page import="com.db.DBConnect" %>
-<%@page import="java.sql.Connection" %>
+<%@page import="com.db.DBConnect"%>
+<%@page import="java.sql.Connection"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -163,6 +163,8 @@
 			</div>
 		</div>
 	</div>
+
+	
 	<%@include file="component/footer.jsp"%>
 </body>
 </html>
