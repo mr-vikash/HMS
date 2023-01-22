@@ -26,7 +26,6 @@ public class AddDoctor extends HttpServlet{
 			String email = req.getParameter("email");
 			String mobNo = req.getParameter("mobno");
 			String password = req.getParameter("password");
-			
 			Doctor d = new Doctor(fullName,dob,qualification,spec,email,mobNo,password);
 			
 			DoctorDao dao = new DoctorDao(DBConnect.getConn());
