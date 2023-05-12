@@ -22,6 +22,7 @@
 						aria-expanded="false"><i class="fas fa-user-circle"></i>${docObj.fullName}</button>
 					<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
 					<li><a class=" dropdown-item " href="edit_profile.jsp">Edit Profile</a>
+					<li><a class=" dropdown-item " href="medicines.jsp">Edit Profile</a>
 						<li><a class=" dropdown-item " href="../docLogout">Logout</a>
 					</ul>
 				</div>

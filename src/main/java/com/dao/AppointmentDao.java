@@ -212,7 +212,7 @@ public class AppointmentDao {
 				f=true;
 			}
 		} catch (Exception e) {
-			
+			e.printStackTrace();
 		}
 		
 		

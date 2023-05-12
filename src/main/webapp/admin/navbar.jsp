@@ -17,6 +17,8 @@
 					href="view_doctor.jsp">View Doctor</a></li>
 				<li class="nav-item"><a class="nav-link active"
 					href="patient.jsp">Patient</a></li>
+					<li class="nav-item"><a class="nav-link active"
+					href="doctorpayroll.jsp">StaffPayroll</a></li>
 			</ul>
 
 

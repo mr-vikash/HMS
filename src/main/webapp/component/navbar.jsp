@@ -2,7 +2,7 @@
 <%@page isELIgnored="false"%>
 <nav class="navbar navbar-expand-lg navbar-dark bg-success">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="index.jsp"><i
+		<a class="navbar-brand" href="./index.jsp"><i
 			class="fa-solid fa-house-medical"></i> </i>MediPharm</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 			data-bs-target="#navbarSupportedContent"
@@ -22,6 +22,14 @@
 						aria-current="page" href="doctor_login.jsp">Doctor</a></li>
 					<li class="nav-item"><a class="nav-link active"
 						aria-current="page" href="user_appointment.jsp">Appointment</a></li>
+						
+						<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="medicine.jsp">Medicine</a></li>
+						
+						<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="bloodbank.jsp">BloodBank</a>
+						</li>
+						
 					<li class="nav-item"><a class="nav-link active"
 						aria-current="page" href="user_login.jsp">User</a></li>
 				</c:if>
